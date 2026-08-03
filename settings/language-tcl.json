@@ -1,0 +1,12 @@
+{
+  ".source.tcl": {
+    "language": {
+      "commentStart": "# ",
+      "increaseIndentPattern": "\\{[^}\"']*$",
+      "decreaseIndentPattern": "^\\s*\\}"
+    },
+    "bracket-matcher": {
+      "autocompleteCharacters": ["()", "[]", "{}", "\"\"", "''"]
+    }
+  }
+}
