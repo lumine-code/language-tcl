@@ -1,4 +1,5 @@
-(comment) @_IGNORE_.spell @comment.line.tcl
+((comment) @_IGNORE_.spell @comment.line.tcl
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
 (command name: (simple_word) @entity.name.function.tcl)
 
