@@ -16,6 +16,7 @@
     "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "tcl.wasm",
     "highlightsQuery": "tcl-highlights.scm",
-    "foldsQuery": "tcl-folds.scm"
+    "foldsQuery": "tcl-folds.scm",
+    "injectionsQuery": "tcl-injections.scm"
   }
 }
