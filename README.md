@@ -5,6 +5,7 @@ Tcl language support.
 ## Features
 
 - **Grammars**: provides Tree-sitter grammars, built from [tree-sitter-tcl](https://github.com/tree-sitter-grammars/tree-sitter-tcl).
+- **Symbols**: procedures and namespace definitions.
 - **Syntax highlighting**: commands, procedures, variables and both substitution forms.
 - **Substitution**: `[ ]` command substitution is scoped apart from brace quoting, which suppresses it.
 - **Folding**: folds procedure bodies.

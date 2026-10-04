@@ -1,0 +1,20 @@
+{
+  "source.tcl": {
+    "text": "namespace eval Demo {\n  proc greet {name} { return $name }\n}\nproc scale {value} { expr {$value * 2} }\ngreet world\n# proc Phantom {} {}\n",
+    "symbols": [
+      {
+        "name": "Demo",
+        "tag": "module"
+      },
+      {
+        "name": "greet",
+        "tag": "function"
+      },
+      {
+        "name": "scale",
+        "tag": "function"
+      }
+    ],
+    "absent": ["Phantom", "world"]
+  }
+}
