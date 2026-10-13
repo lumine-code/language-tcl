@@ -10,6 +10,8 @@ Tcl language support.
 - **Substitution**: `[ ]` command substitution is scoped apart from brace quoting, which suppresses it.
 - **Folding**: folds procedure bodies.
 
+![Tcl syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-tcl` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-tcl`.

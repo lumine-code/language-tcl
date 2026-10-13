@@ -1,0 +1,16 @@
+{
+  "title": "language-tcl",
+  "description": "Tcl syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "517e8fc41b11dd075b0ab471be872c105ea2fcf8",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Tcl syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}
