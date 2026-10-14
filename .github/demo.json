@@ -1,16 +1,61 @@
 {
   "title": "language-tcl",
-  "description": "Tcl syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "517e8fc41b11dd075b0ab471be872c105ea2fcf8",
+  "description": "Tcl syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "2a46eabc62d8dd0345cf73fb30aedc9c8fa6fb12",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "ca74b39aa0cbf7f58107ba10e2549d75a26fea1a47ead94c6fa903c64f12d83a",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "0362a9fac7d6e153a768c0381800d6f3eb06647a",
+      "dirty": true,
+      "workingTreeHash": "0fa935626a1db13861a0b78ef5c3d890e0a6bff80b25da2fac6e9889910defe0"
+    },
+    "package": {
+      "revision": "2a46eabc62d8dd0345cf73fb30aedc9c8fa6fb12",
+      "dirty": true,
+      "workingTreeHash": "d2f386dc18bcf3e243a868a5477766906b26bf82e00d424950a3615d0f0e38e9"
+    },
+    "language-tcl": {
+      "revision": "2a46eabc62d8dd0345cf73fb30aedc9c8fa6fb12",
+      "dirty": true,
+      "workingTreeHash": "d2f386dc18bcf3e243a868a5477766906b26bf82e00d424950a3615d0f0e38e9"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.tcl",
+      "sha256": "37574fb1fb4495beee40d55618be81c8842848d098336753e5633c13853dad97"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "Tcl syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "296a6b297a1d7e763047abefefe6ffd46681ec2977c5af479957efbc394a86da"
     }
   ]
 }
