@@ -1,7 +1,7 @@
 {
   ".source.tcl": {
     "bracket-matcher": {
-      "autocompleteCharacters": ["()", "[]", "{}", "\"\"", "''"]
+      "autocompleteCharacters": ["()", "[]", "{}", "\"\""]
     },
     "editor": {
       "commentStart": "# "
