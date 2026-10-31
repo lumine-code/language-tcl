@@ -18,6 +18,7 @@
     "tagsQuery": "tcl-tags.scm",
     "highlightsQuery": "tcl-highlights.scm",
     "foldsQuery": "tcl-folds.scm",
-    "injectionsQuery": "tcl-injections.scm"
+    "injectionsQuery": "tcl-injections.scm",
+    "indentsQuery": "tcl-indents.scm"
   }
 }
