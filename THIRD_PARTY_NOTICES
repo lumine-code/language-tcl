@@ -2,6 +2,9 @@
 Source: https://github.com/tree-sitter-grammars/tree-sitter-tcl
 Revision: 8f11ac7206a54ed11210491cee1e0657e2962c47
 
+Parser source: github:tree-sitter-grammars/tree-sitter-tcl#8f11ac7206a54ed11210491cee1e0657e2962c47
+Resolved commit: 8f11ac7206a54ed11210491cee1e0657e2962c47
+
 Original file: LICENSE
 
 MIT License
