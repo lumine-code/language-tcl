@@ -5,6 +5,9 @@ Revision: 8f11ac7206a54ed11210491cee1e0657e2962c47
 Parser source: github:tree-sitter-grammars/tree-sitter-tcl#8f11ac7206a54ed11210491cee1e0657e2962c47
 Resolved commit: 8f11ac7206a54ed11210491cee1e0657e2962c47
 
+Parser source: github:tree-sitter-grammars/tree-sitter-tcl#90e87ed495a04fd0bf18db4be12b7033cd7402f6
+Resolved commit: 90e87ed495a04fd0bf18db4be12b7033cd7402f6
+
 Original file: LICENSE
 
 MIT License

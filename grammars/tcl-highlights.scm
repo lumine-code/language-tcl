@@ -10,6 +10,7 @@
 )
 
 (set (id) @variable.other.tcl)
+(set name: (braced_word_simple) @variable.other.tcl)
 
 (argument
   name: (_) @variable.parameter.tcl @variable.other.tcl
@@ -38,6 +39,7 @@
                 "tcl_version"))
 
 "expr" @support.function.builtin.tcl @entity.name.function.tcl
+"regsub" @support.function.builtin.tcl @entity.name.function.tcl
 
 ; Highlight switch arguments as string
 (command
@@ -60,7 +62,6 @@
    "join"
    "puts"
    "regexp"
-   "regsub"
    "split"
    "subst"
    "trace"
@@ -146,6 +147,7 @@
 
 (variable_substitution) @variable.other.tcl
 (quoted_word) @string.quoted.double.tcl
+(braced_word_simple) @string.quoted.other.tcl
 (escaped_character) @constant.character.escape.tcl
 
 ; Braces quote a word literally; brackets substitute a command.

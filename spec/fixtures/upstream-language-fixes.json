@@ -1,0 +1,82 @@
+[
+  {
+    "name": "semicolon separates commands",
+    "text": "set value 1; puts $value\n",
+    "types": {
+      "set": 1,
+      "command": 1
+    }
+  },
+  {
+    "name": "final command without terminator",
+    "text": "set value 1",
+    "types": {
+      "set": 1
+    }
+  },
+  {
+    "name": "regsub braced quote is literal",
+    "text": "regsub -all {\"} $help ' help\n",
+    "types": {
+      "regsub": 1
+    },
+    "scopes": [
+      {
+        "needle": "regsub",
+        "contains": "support.function.builtin.tcl"
+      },
+      {
+        "needle": "\"",
+        "contains": "string.quoted.other.tcl"
+      }
+    ]
+  },
+  {
+    "name": "array substitutions and quoted lone dollar",
+    "text": "puts \"$items($key)$\"\n",
+    "types": {
+      "array_index": 1
+    }
+  },
+  {
+    "name": "braced variable name",
+    "text": "set {a b} value\n",
+    "field": {
+      "type": "set",
+      "field": "name",
+      "text": "{a b}"
+    },
+    "scopes": [
+      {
+        "needle": "a b",
+        "contains": "variable.other.tcl"
+      }
+    ]
+  },
+  {
+    "name": "backslash continues a comment",
+    "text": "# note \\\ncontinued\nset value 1\n",
+    "commentText": "# note \\\ncontinued",
+    "scopes": [
+      {
+        "needle": "continued",
+        "contains": "comment.line.tcl"
+      }
+    ]
+  },
+  {
+    "name": "braced words suppress substitutions",
+    "text": "set value {$not_substituted [ignored] \"quote\"}\n",
+    "types": {
+      "variable_substitution": 0,
+      "command_substitution": 0
+    },
+    "scopes": [
+      {
+        "needle": "$not_substituted",
+        "contains": "string.quoted.other.tcl",
+        "excludes": "variable.other.tcl"
+      }
+    ]
+  }
+]

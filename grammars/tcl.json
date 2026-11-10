@@ -12,7 +12,7 @@
     // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
     // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
     // reporting `diverged` or a nonzero `behind` means it is not.
-    "parserSource": "github:tree-sitter-grammars/tree-sitter-tcl#8f11ac7206a54ed11210491cee1e0657e2962c47",
+    "parserSource": "github:tree-sitter-grammars/tree-sitter-tcl#90e87ed495a04fd0bf18db4be12b7033cd7402f6",
     "wasmBuildTool": "tree-sitter-cli#v0.27.2",
     "grammar": "tcl.wasm",
     "tagsQuery": "tcl-tags.scm",
