@@ -15,6 +15,7 @@
     "parserSource": "github:tree-sitter-grammars/tree-sitter-tcl#90e87ed495a04fd0bf18db4be12b7033cd7402f6",
     "wasmBuildTool": "tree-sitter-cli#v0.27.2",
     "grammar": "tcl.wasm",
+    "tagsQuerySupportsLocalPath": true,
     "tagsQuery": "tcl-tags.scm",
     "highlightsQuery": "tcl-highlights.scm",
     "foldsQuery": "tcl-folds.scm",
